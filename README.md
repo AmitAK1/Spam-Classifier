@@ -30,60 +30,37 @@ requirements.txt	Python dependencies
 
 ⚙️ Setup Instructions
 1. Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/your-username/spam-classifier-app.git
 cd spam-classifier-app
 2. Create a virtual environment (optional but recommended)
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
+
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
-4. Run the app
-bash
-Copy
-Edit
+
+5. Run the app
 streamlit run app.py
+
 🧪 Sample Input
-vbnet
-Copy
-Edit
 Congratulations! You've won a free vacation to the Bahamas. Call now to claim.
 ✅ Output
-nginx
-Copy
-Edit
 Spam
+
 📦 Requirements
 You can generate this using:
-
-bash
-Copy
-Edit
 pip freeze > requirements.txt
-But the essentials would be:
 
-txt
-Copy
-Edit
+But the essentials would be:
 streamlit
 scikit-learn
 nltk
 pandas
+
 📌 Notes
 Make sure you download NLTK stopwords before running the app:
 
-python
-Copy
-Edit
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
