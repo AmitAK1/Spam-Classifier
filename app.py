@@ -38,9 +38,9 @@ def transform_text(text):
 
 if st.button('Predict'):
     # 1.preprocess
-    transformed_msg1 = transform_text(input_msg)
+    transformed_msg2 = transform_text(input_msg)
     # 2.Vectorize
-    vector_input = tfidf.transform([transformed_msg1])
+    vector_input = tfidf.transform([transformed_msg2])
     print("Is vectorizer fitted?", hasattr(tfidf, "idf_"))
 
     # 3.Predict
