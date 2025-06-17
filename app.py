@@ -3,9 +3,7 @@ import pickle
 import pandas as pd
 import string
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-
+nltk.data.path.append("nltk_data")
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
