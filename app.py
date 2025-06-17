@@ -37,6 +37,8 @@ if st.button('Predict'):
     transformed_msg = transform_text(input_msg)
     # 2.Vectorize
     vector_input = tfidf.transform([transformed_msg])
+    print("Is vectorizer fitted?", hasattr(tfidf, "idf_"))
+
     # 3.Predict
     result = model.predict(vector_input)
     if result == 1:
