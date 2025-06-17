@@ -1,5 +1,6 @@
 import streamlit as st
-import pickle
+import joblib
+
 import pandas as pd
 import string
 import nltk
@@ -7,8 +8,11 @@ nltk.data.path.append("nltk_data")
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
-tfidf=pickle.load(open('vectorizer.pkl', 'rb'))
-model=pickle.load(open('model.pkl', 'rb'))
+
+
+tfidf = joblib.load("vectorizer.pkl")
+model = joblib.load("model.pkl")
+
 st.title('Spam Classifier')
 input_msg=st.text_area("Enter the message to classify")
 
