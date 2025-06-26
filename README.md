@@ -3,6 +3,9 @@
 This is a simple **Streamlit-based web application** that classifies whether a given message is **Spam** or **Not Spam** using a trained machine learning model and TF-IDF vectorizer.
 
 ---
+🌐 Live Demo
+You can try the app live here:
+👉 https://spam-classifier-7yhtasfpcnkqfz3amyhxv4.streamlit.app/
 
 ## 🚀 Features
 
@@ -65,7 +68,13 @@ This is a simple **Streamlit-based web application** that classifies whether a g
 
 ## 🧪 Sample Input
 
-> Congratulations! You've won a free vacation to the Bahamas. Call now to claim.
+> "Congratulations! You've won a ₹10,00,000 cash prize in the Coca Cola 2025 lucky draw. Send your full name, address & phone number to claim now!"
+
+>"Your account is suspended due to suspicious activity. Click here to verify immediately and avoid permanent closure: http://secure-verify-update.info"
+
+>"Limited Time Offer! Get a FREE iPhone 15 by completing a short survey. Hurry, only 3 left! Claim now: http://win-iphone15-today.net"
+
+>"Dear user, your mobile number has been selected for a ₹5,00,000 lottery by WhatsApp Foundation. Contact Mr. Ramesh at +91-XXXXXXXXXX to receive your amount."
 
 ### ✅ Output
 > Spam
@@ -75,5 +84,5 @@ This is a simple **Streamlit-based web application** that classifies whether a g
 ## 📦 Requirements
 
 You can generate the full list using:
-```bash
+
 pip freeze > requirements.txt
