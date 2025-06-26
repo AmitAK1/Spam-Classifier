@@ -7,6 +7,19 @@ This is a simple **Streamlit-based web application** that classifies whether a g
 You can try the app live here:
 👉 https://spam-classifier-7yhtasfpcnkqfz3amyhxv4.streamlit.app/
 
+## 🧪 Sample Input
+
+> "Congratulations! You've won a ₹10,00,000 cash prize in the Coca Cola 2025 lucky draw. Send your full name, address & phone number to claim now!"
+
+>"Limited Time Offer! Get a FREE iPhone 15 by completing a short survey. Hurry, only 3 left! Claim now: http://win-iphone15-today.net"
+
+>"Dear user, your mobile number has been selected for a ₹5,00,000 lottery by WhatsApp Foundation. Contact Mr. Ramesh at +91-XXXXXXXXXX to receive your amount."
+
+### ✅ Output
+> Spam
+
+---
+
 ## 🚀 Features
 
 - Text input for message classification  
@@ -63,21 +76,6 @@ You can try the app live here:
     ```bash
     streamlit run app.py
     ```
-
----
-
-## 🧪 Sample Input
-
-> "Congratulations! You've won a ₹10,00,000 cash prize in the Coca Cola 2025 lucky draw. Send your full name, address & phone number to claim now!"
-
->"Your account is suspended due to suspicious activity. Click here to verify immediately and avoid permanent closure: http://secure-verify-update.info"
-
->"Limited Time Offer! Get a FREE iPhone 15 by completing a short survey. Hurry, only 3 left! Claim now: http://win-iphone15-today.net"
-
->"Dear user, your mobile number has been selected for a ₹5,00,000 lottery by WhatsApp Foundation. Contact Mr. Ramesh at +91-XXXXXXXXXX to receive your amount."
-
-### ✅ Output
-> Spam
 
 ---
 
