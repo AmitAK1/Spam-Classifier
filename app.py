@@ -10,7 +10,7 @@ from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 
 
-tfidf = joblib.load("vectorizerFF.pkl")
+tfidf = joblib.load("vectorizerFX.pkl")
 model = joblib.load("modelFX.pkl")
 
 st.title('Spam Classifier')
