@@ -11,7 +11,7 @@ ps = PorterStemmer()
 
 
 tfidf = joblib.load("vectorizerFF.pkl")
-model = joblib.load("modelF.pkl")
+model = joblib.load("modelFX.pkl")
 
 st.title('Spam Classifier')
 input_msg=st.text_area("Enter the message to classify")
