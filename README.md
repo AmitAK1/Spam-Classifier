@@ -1,6 +1,6 @@
 # 📩 Spam Classifier Web App
 
-This is a simple **Streamlit-based web application** that classifies whether a given message is **Spam** or **Not Spam** using a trained machine learning model and TF-IDF vectorizer.
+This is a simple **Streamlit-based web application** that classifies whether a given message is **Spam** or **Not Spam** using a trained machine learning model(RFC) and TF-IDF vectorizer.
 
 ---
 🌐 Live Demo
@@ -25,7 +25,7 @@ You can try the app live here:
 - Text input for message classification  
 - NLP preprocessing (lowercasing, tokenization, stopword removal, stemming)  
 - TF-IDF-based vectorization  
-- Spam detection using a trained model  
+- Spam detection using a Random Forest Classifier  
 - Real-time prediction output in the browser  
 
 ---
@@ -44,7 +44,7 @@ You can try the app live here:
 | File             | Purpose                              |
 |------------------|--------------------------------------|
 | `app.py`         | Streamlit web app code               |
-| `model.pkl`      | Trained ML classification model      |
+| `model.pkl`      | Trained ML classification model(RF)      |
 | `vectorizer.pkl` | TF-IDF vectorizer used for input     |
 | `requirements.txt` | Python dependencies               |
 
